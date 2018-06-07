@@ -45,7 +45,6 @@ header {
 	background-position: center;
 }
 .main-visual-content{
-	height: 650px;
 	padding-top: 200px;
 	margin: 0 auto; /*中央寄せ*/
 }
@@ -55,31 +54,26 @@ header {
 	text-align: center;
 }
 .main-visual-text{
-	margin-top: 10px;
+	padding-top: 10px;
 	font-size: 20px;
 	color: #fafafa;
 	text-align: center;
 }
-.portfolio-background{
+.background{
 	background-color: #eceff1;
 	width: 100%;
-	padding-bottom: 90px;
+	padding: 90px 0;
 }
 .portfolio{
 	width: 920px;
 	margin: 0 auto;
 }
-.portfolio-box{
-	width: 920px;
-	padding-bottom: 30px;
-}
-.portfolio-portfolio{
-	padding-top: 90px;
+.h2-text{
 	font-size: 32px;
 	color: #000000;
 	text-align: center;
 	}
-.portfolio-border{
+.border-line{
 	height: 8px;
 	width: 70px;
 	border-bottom: 3px solid #ec715f;
@@ -87,9 +81,12 @@ header {
 }
 .portfolio-text{
 	width: 920px;
-	height: 100px;
-	padding-top: 30px;
+	padding: 30px 0;
 	text-align: center;
+}
+.text {
+	font-size: 16px;
+	color: #000000;
 }
 .portfolio-image{
 	float: left;
@@ -120,4 +117,68 @@ header {
 }
 .portfolio-image:nth-child(6){
 	background-image: url(img/webcamp-mother.png);
+}
+.background2 {
+	width: 100%;
+	padding: 90px 0;
+}
+.feature {
+	width: 980px;
+	margin: 0 auto;
+}
+.feature-text {
+	padding: 30px 0;
+	text-align: center;
+}
+.strength{
+}
+.strength-box {
+	float: left;
+	width: 320px;
+	height: auto;
+	background-color: gray;
+}
+.strength-box2 {
+	width: 320px;
+	margin: 0 auto;
+}
+.fab {
+	font-size: 60px;
+}
+.h3-text {
+	font-size: 20px;
+	color: #000000;
+}
+.strength-box:nth-child(2){
+	margin: 0 10px;
+}
+.strength-font {
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+.profile-box{
+	width: 1024px;
+	margin: 0 auto;
+}
+.profile-text {
+	padding: 30px 0;
+	text-align: center;
+}
+.profile-image-box {
+	float: left;
+	width: 512px;
+}
+.profile-image {
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(img/my-icon.jpg);
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.my-text{
+	padding-top: 5px;
+	padding-bottom: 8px;
 }

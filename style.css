@@ -1,0 +1,80 @@
+/*リセットcss*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #ec715f;
+}
+.header-box{
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+	background-color: #ec715f;
+}
+.logo{
+	float: left;
+	height: 70px;
+}
+.nav-list {
+	float: right;
+	text-align: center;
+	height: 70px;
+	padding: 25px 0;
+}
+.nav-list-item{
+	margin: 0 30px;
+	font-size: 16px;
+	color: #fafafa;
+	list-style: none;
+	display: inline-block;
+}
+.main-visual{
+	height: 650px;
+	width: 100%;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.main-visual-content{
+	height: 650px;
+	padding-top: 200px;
+	margin: 0 auto; /*中央寄せ*/
+}
+.main-visual-lipsum{
+	font-size: 64px;
+	color: #fafafa;
+	text-align: center;
+}
+.main-visual-text{
+	margin-top: 10px;
+	font-size: 20px;
+	color: #fafafa;
+	text-align: center;
+}
+.portfolio-background{
+	background-color: #eceff1;
+	height: 900px;
+	width: 100%;
+}
+.portfolio{
+	width: 920px;
+	height: 800px;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+.portfolio-box{
+	width: 920px;
+	height: 300px;
+	background-color: green;
+}
+.portfollio-portfollio{
+}

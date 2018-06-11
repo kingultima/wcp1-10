@@ -149,12 +149,9 @@ p {
 }
 
 .portfolio p {
-    padding: 30px 0;
+    margin: 30px 0;
     text-align: center;
 }
-
-.image-in-box {}
-
 .portfolio-image {
     float: left;
     width: 300px;
@@ -162,57 +159,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-
-
-/*.portfolio-image1 {
-	float: left;
-	width: 300px;
-	height: 250px;
-	background-image: url(img/sketch.jpg);
-	background-size: cover;
-	background-position: center;
-}
-.portfolio-image2 {
-	float: left;
-	width: 300px;
-	height: 250px;
-	background-image: url(img/websuku.png);
-	background-size: cover;
-	background-position: center;
-}
-.portfolio-image3 {
-	float: left;
-	width: 300px;
-	height: 250px;
-	background-image: url(img/write.jpg);
-	background-size: cover;
-	background-position: center;
-}
-.portfolio-image4 {
-	float: left;
-	width: 300px;
-	height: 250px;
-	background-image: url(img/webcamp.png);
-	background-size: cover;
-	background-position: center;
-}
-.portfolio-image5 {
-	float: left;
-	width: 300px;
-	height: 250px;
-	background-image: url(img/talk.jpg);
-	background-size: cover;
-	background-position: center;
-}
-.portfolio-image6 {
-	float: left;
-	width: 300px;
-	height: 250px;
-	background-image: url(img/webcamp-mother.png);
-	background-size: cover;
-	background-position: center;
-}*/
 
 .portfolio-image:nth-child(1) {
     background-image: url(img/sketch.jpg);
@@ -290,13 +236,12 @@ p {
 }
 
 .icon-inbox {
-    padding: 0 40%;
+    width: 60px;
+    margin: 0 auto;
 }
 
 .icon-inbox .fab {
-    width: 60px;
     font-size: 60px;
-    padding: 0 30%;
 }
 
 h3 {
@@ -411,7 +356,8 @@ h3 {
 }
 
 .contact-inbox {
-    padding: 0 30%;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .contact-box-right {
@@ -420,23 +366,18 @@ h3 {
 }
 
 .contact-inbox-right {
-    padding: 0 30%;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .contact-box h3 {
     padding-bottom: 5px;
 }
-
-.number {
-    padding-bottom: 20px;
-}
-
 .sns-list {
-    width: 200px;
+    /*width: 100%;*/
 }
 
 .sns-list-item {
-    list-style: none;
     display: inline-block;
 }
 
@@ -527,6 +468,9 @@ footer p {
     }
     .portfolio-image {
         float: none;
+        margin: 0 auto;
+    }
+    .portfolio-image:nth-child(4) {
         margin: 10px auto;
     }
     .portfolio-image:nth-child(odd) {
@@ -543,8 +487,10 @@ footer p {
     .strength-inbox {
         width: 100%;
         float: none;
-        margin: 10px auto;
     }
+    .strength-inbox:nth-child(2) {
+    margin: 10px auto;
+       }
     .profile-bg {
         width: 90%;
         margin: 0 5%;
@@ -568,6 +514,7 @@ footer p {
         text-align: center;
     }
     .profile3 p {
+        padding: 0;
         text-align: center;
     }
     .contact-bg {
@@ -582,25 +529,31 @@ footer p {
         width: 100%;
     }
     .contact-inbox {
-        padding: 0;
-    }
+        width: 100%;
+}
     .contact-box-right {
         float: none;
         width: 100%;
     }
     .contact-inbox-right {
-        padding: 0;
+        width: 100%;
     }
     .contact h3 {
         text-align: center;
     }
     .number {
-        padding: 0 30%;
+        margin:0 auto;
+        width: 150px;
+        padding-bottom: 20px;
     }
     nav {
-    	margin:0 35%;
+        margin: 0 auto;
+        width: 200px;
+        text-align: center;
     }
-    .sns-list-item nth-child(2) {
+    .sns-list {
+    }
+    .sns-list-item:nth-child(2) {
         padding: 0 8px;
     }
     footer {

@@ -278,15 +278,10 @@ h3 {
     margin: 0 auto;
 }
 
-.profile p {
+.profile-text {
     padding: 30px 0;
     text-align: center;
 }
-
-.profile3 p {
-    text-align: left;
-}
-
 .profile2 {
     float: left;
     width: 512px;
@@ -409,13 +404,13 @@ footer p {
 @media screen and (max-width: 768px) {
     header {
         position: relative;
-        width: 90%;
+        width: 100%;
         height: 50px;
-        margin: 0 5%;
     }
 
     .header-box {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         height: 50px;
     }
 
@@ -447,24 +442,25 @@ footer p {
     }
 
     .main-visual {
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
         background-image: url(img/code.png);
     }
 
     h1 {
         font-size: 40px;
+        margin:0 5%;
     }
     .main-visual p {
         font-size: 18px;
+        margin:0 5%;
     }
 
     .portfolio-bg {
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
     }
     .portfolio {
-        width: 100%;
+        width: 90%;
+        margin: 0 5%;
     }
     .portfolio-image {
         float: none;
@@ -478,11 +474,11 @@ footer p {
     }
 
     .feature-bg {
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
     }
     .feature {
-        width: 100%;
+        width: 90%;
+        margin:0 5%;
     }
     .strength-inbox {
         width: 100%;
@@ -492,37 +488,37 @@ footer p {
     margin: 10px auto;
        }
     .profile-bg {
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
     }
     .profile {
-        width: 100%;
+        width: 90%;
+        margin:0 5%;
     }
     .profile-image-box {
         width: 100%;
     }
     .profile2 {
         float: none;
-        width: 100%
+        width: 100%;
     }
     .profile3 {
         float: none;
-        width: 100%
+        width: 100%;
     }
     .profile3 h3 {
         margin-top: 20px;
         text-align: center;
     }
     .profile3 p {
-        padding: 0;
+        word-wrap: break-word;
         text-align: center;
     }
     .contact-bg {
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
     }
     .contact {
-        width: 100%;
+        width: 90%;
+        margin: 0 5%;
     }
     .contact-box {
         float: none;
@@ -542,9 +538,9 @@ footer p {
         text-align: center;
     }
     .number {
+        width: 124px;
         margin:0 auto;
-        width: 150px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
     nav {
         margin: 0 auto;
@@ -557,8 +553,11 @@ footer p {
         padding: 0 8px;
     }
     footer {
-        width: 90%;
+        width: 100%;
         height: 60px;
-        margin: 0 5%;
+    }
+    footer p {
+        width: 90%;
+        margin:0 5%;
     }
 }

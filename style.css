@@ -33,14 +33,8 @@
 
 header {
     width: 100%;
-    margin: 0 auto;
     background-color: #ec715f;
 }
-
-header .background {
-    background-color: #ec715f;
-}
-
 .header-box {
     width: 1024px;
     height: 70px;
@@ -410,7 +404,7 @@ footer p {
 
     .header-box {
         width: 90%;
-        margin: 0 auto;
+        margin: 0 5%;
         height: 50px;
     }
 
